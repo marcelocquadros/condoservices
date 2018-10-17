@@ -1,17 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+  <CustomToolbar />
+  <v-content>
+    <v-container fluid>
+      <router-view></router-view>
+    </v-container>
+  </v-content>
+  <CustomFooter />
+</v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Carousel from '@/components/Carousel'
+import CustomFooter from '@/components/CustomFooter'
+import CustomToolbar from '@/components/CustomToolbar'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Carousel,
+    CustomFooter,
+    CustomToolbar
   }
 }
 </script>
