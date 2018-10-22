@@ -12,7 +12,6 @@
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
       <v-btn flat>Contato</v-btn>
-      <v-btn flat>Link Two</v-btn>
       <Login />
     </v-toolbar-items>
   </v-toolbar>
