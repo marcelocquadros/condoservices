@@ -13,26 +13,18 @@ export default {
     return {
       items: [
         {
-          src: "header1.jpg"
+          src: "header1_.jpg"
         },
         {
           src: "header2.jpg"
         },
-        {
-          src: "header3.jpg"
-        },
-        {
-          src: "header4.jpg"
-        },
-        {
-          src: "header5.jpg"
+         {
+          src: "baba.jpg"
         },
         {
           src: "header11.jpg"
-        },
-        {
-          src: "header7.jpg"
         }
+       
       ]
     };
   }
